@@ -1,11 +1,11 @@
-import Nav from "../../Components/Nav/Nav";
+import Navigation from "../../Components/Nav/Nav";
 
 
 function Home(){
 
     return(
         <div className="Header">
-            <Nav/>
+            <Navigation/>
             <p>Home</p>
         </div>
     );
