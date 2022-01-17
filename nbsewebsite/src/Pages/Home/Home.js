@@ -1,18 +1,13 @@
-import Navigation from "../../Components/Navigation/Navigation";
-import ButtonGroup from 'react-bootstrap/ButtonGroup';
-import ButtonToolbar from 'react-bootstrap/ButtonToolbar';
-import { Button } from 'bootstrap';
 
+import React, { Component } from 'react'
 
-function Home(){
-
-    return(
-        <div className="Body">
-            <p> home </p>
- 
-        </div>
-    );
-
+export default class Home extends Component {
+    render() {
+        return (
+            <div>
+                <h1>Home</h1>
+                <p>This is home.</p>
+            </div>
+        )
+    }
 }
-
-export default Home;
