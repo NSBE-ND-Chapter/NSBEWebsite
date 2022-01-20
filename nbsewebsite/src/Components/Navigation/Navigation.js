@@ -14,16 +14,14 @@ export default class Navigation extends Component {
             <div>
                 <Navbar bg="dark" expand="lg" variant='dark'>
                     <Container>
-                        <Navbar.Brand href="/home">NBSE</Navbar.Brand>
+                        <Navbar.Brand href="/">NBSE</Navbar.Brand>
                         <Navbar.Toggle aria-controls="basic-navbar-nav" />
-                        <div className='Nav-text'>
                             <Navbar.Collapse id="basic-navbar-nav">
-                                <Nav className="me-auto">
+                                <Nav className="ms-auto">
                                     <Nav.Link as={Link} to='/home'>Home</Nav.Link>
                                     <Nav.Link as={Link} to='/contact'>Contact Us</Nav.Link>
                                 </Nav>
                             </Navbar.Collapse>
-                        </div>
                     </Container>
                 </Navbar>
                 <div>
