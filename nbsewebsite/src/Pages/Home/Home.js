@@ -5,9 +5,6 @@ import Carousel from 'react-bootstrap/Carousel';
 import Profile from '../../Components/Profile/Profile';
 import './Home.css';
 
-
-
-
 export default class Home extends Component {
     render() {
         return (
