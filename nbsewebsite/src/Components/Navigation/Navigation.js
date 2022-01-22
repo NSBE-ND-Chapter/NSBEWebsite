@@ -3,6 +3,7 @@ import { Navbar, Nav, Container } from 'react-bootstrap';
 import Home from '../../Pages/Home/Home';
 import ContactUs from '../../Pages/ContactUs/ContactUs';
 import Events from '../../Pages/Events/Events';
+import AboutUs from '../../Pages/AboutUs/AboutUs';
 import { Route, Routes, Link } from 'react-router-dom';
 import './Navigation.css';
 
@@ -21,6 +22,7 @@ export default class Navigation extends Component {
                                 <Nav className="ms-auto">
                                     <Nav.Link as={Link} to='/'>Home</Nav.Link>
                                     <Nav.Link as={Link} to='/events'>Events</Nav.Link>
+                                    <Nav.Link as={Link} to='/about'>About Us</Nav.Link>
                                     <Nav.Link as={Link} to='/contact'>Contact Us</Nav.Link>
                                 </Nav>
                             </Navbar.Collapse>
@@ -30,6 +32,7 @@ export default class Navigation extends Component {
                     <Routes>
                         {/*<Route path="/home" element={<Home />}></Route>*/}
                         <Route path="/events" element={<Events />}></Route>
+                        <Route path="/about" element={<AboutUs />}></Route>
                         <Route path="/contact" element={<ContactUs />}></Route>
                         <Route path="/" element={<Home />}></Route>
                     </Routes>
