@@ -1,4 +1,18 @@
 #card{
-    width: 'auto';
-    margin-top: 5px;
+    height: auto;
+    width: 300px;
+    margin: 0 auto; /* Added */
+    float: none; /* Added */
+    margin-bottom: 10px; /* Added */
+    margin-top: 20px;
+}
+
+#image{
+    height: 300px;
+    width: 300px;
+}
+
+#text{
+    font-weight: 700;
+    margin-bottom: -3px;
 }

@@ -58,24 +58,54 @@ export default class Home extends Component {
                     <Container>
                         <Row xs={1} md={3} id='row'>
                             <Col>
-                                <Profile />
+                                <Profile 
+                                    name = "Desereé Frink-Larcart"
+                                    position = "President"
+                                    image = {require("../../Media/Images/Profiles/President.png")}
+                                    text = "Senior - Class of 2022"
+                                />
                             </Col>
                             <Col>
-                                <Profile />
+                            <Profile 
+                                    name = "Jade Miller"
+                                    position = "Vice President"
+                                    image = {require("../../Media/Images/Profiles/Vice-President.png")}
+                                    text = "Senior - Class of 2022"
+                                />
                             </Col>
                             <Col>
-                                <Profile />
+                            <Profile 
+                                    name = "Olivier N’Tala"
+                                    position = "Diversity Council Rep"
+                                    image = {require("../../Media/Images/Profiles/Diversity-Council-Rep.png")}
+                                    text = "Junior - Class of 2023"
+                                />
                             </Col>
                         </Row>
                         <Row xs={1} md={3} id='row'>
                             <Col>
-                                <Profile />
+                            <Profile 
+                                    name = "Vongai Mutatu"
+                                    position = "Secretary"
+                                    image = {require("../../Media/Images/Profiles/Secretary.png")}
+                                    text = "Junior - Class of 2023"
+                                />
                             </Col>
                             <Col>
-                                <Profile />
+                            <Profile 
+                                    name = "Jordan Anderson"
+                                    position = "Treasurer"
+                                    image = {require("../../Media/Images/Profiles/Treasurer.png")}
+                                    text = "Junior - Class of 2023"
+                                />
                             </Col>
                             <Col>
-                                <Profile />
+                            <Profile 
+                                    name = "Caitlin Benyah"
+                                    position = "Webmaster"
+                                    image = {require("../../Media/Images/Profiles/Webmaster.png")}
+                                    text = "Senior - Class of 2022"
+                                />
                             </Col>
                         </Row>
                     </Container>

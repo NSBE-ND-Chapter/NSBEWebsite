@@ -2,6 +2,7 @@ import { React, Component } from 'react';
 import { Navbar, Nav, Container } from 'react-bootstrap';
 import Home from '../../Pages/Home/Home';
 import ContactUs from '../../Pages/ContactUs/ContactUs';
+import Events from '../../Pages/Events/Events';
 import { Route, Routes, Link } from 'react-router-dom';
 import './Navigation.css';
 
@@ -14,11 +15,12 @@ export default class Navigation extends Component {
             <div>
                 <Navbar bg="dark" expand="lg" variant='dark'>
                     <Container>
-                        <Navbar.Brand href="/">NBSE</Navbar.Brand>
+                        <Navbar.Brand href="/">National Society for Black Engineers</Navbar.Brand>
                         <Navbar.Toggle aria-controls="basic-navbar-nav" />
                             <Navbar.Collapse id="basic-navbar-nav">
                                 <Nav className="ms-auto">
-                                    <Nav.Link as={Link} to='/home'>Home</Nav.Link>
+                                    <Nav.Link as={Link} to='/'>Home</Nav.Link>
+                                    <Nav.Link as={Link} to='/events'>Events</Nav.Link>
                                     <Nav.Link as={Link} to='/contact'>Contact Us</Nav.Link>
                                 </Nav>
                             </Navbar.Collapse>
@@ -26,7 +28,8 @@ export default class Navigation extends Component {
                 </Navbar>
                 <div>
                     <Routes>
-                        <Route path="/home" element={<Home />}></Route>
+                        {/*<Route path="/home" element={<Home />}></Route>*/}
+                        <Route path="/events" element={<Events />}></Route>
                         <Route path="/contact" element={<ContactUs />}></Route>
                         <Route path="/" element={<Home />}></Route>
                     </Routes>

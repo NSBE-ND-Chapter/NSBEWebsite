@@ -7,11 +7,14 @@ export default class Profile extends Component {
         return (
             <div>
                 <Card id="card">
-                    <Card.Img variant="top" src={require("../../Media/Images/Carousel/Dog.jpg")} />
+                    <Card.Img variant="top" src={this.props.image} id="image"/>
                     <Card.Body>
-                        <Card.Title>Club Head Name</Card.Title>
+                        <Card.Title>{this.props.name}</Card.Title>
                         <Card.Text>
-                            Nulla vitae elit libero, a pharetra augue mollis interdum.
+                            <p id="text">
+                            {this.props.position}
+                            </p>
+                            {this.props.text}
                         </Card.Text>
                     </Card.Body>
                 </Card>
