@@ -9,14 +9,16 @@ import './Navigation.css';
 
 
 
-
 export default class Navigation extends Component {
     render() {
         return (
             <div>
                 <Navbar bg="dark" expand="lg" variant='dark'>
                     <Container>
-                        <Navbar.Brand href="/">National Society for Black Engineers</Navbar.Brand>
+                        <Navbar.Brand href="/">
+                            <img src={require("../../Media/Images/logo.png")} alt='NSBE Logo'/>
+                            <b>UNIVERSITY OF NOTRE DAME NSBE CHAPTER</b>
+                        </Navbar.Brand>
                         <Navbar.Toggle aria-controls="basic-navbar-nav" />
                             <Navbar.Collapse id="basic-navbar-nav">
                                 <Nav className="ms-auto">

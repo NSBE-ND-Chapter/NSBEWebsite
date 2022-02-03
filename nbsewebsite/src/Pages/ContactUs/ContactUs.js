@@ -9,13 +9,13 @@ import { Container } from 'react-bootstrap';
 export default class ContactUs extends Component {
     render() {
         return (
-            <div>
+            <div className='contactUs'>
                 <Container>
                     <Row>
-                        <Col sm={2}>1 of 3</Col>
+                        <Col sm={2}></Col>
                         <Col>
                             <h1>Contact Us</h1>
-                            <p>This is contact US.</p>
+                            <p>Feel free to contact us at <a href='mailto:nsbe@nd.edu'><b>nsbe@nd.edu</b></a> or fill out the form below</p>
                             <br>
                             </br>
                             <Form>
@@ -100,7 +100,7 @@ export default class ContactUs extends Component {
                                 </Form.Group>
                             </Form>
                         </Col>
-                        <Col sm={2}> 3 of 3</Col>
+                        <Col sm={2}></Col>
                     </Row>
                 </Container>
 
