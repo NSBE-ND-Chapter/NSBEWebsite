@@ -17,7 +17,7 @@ export default class Navigation extends Component {
                     <Container>
                         <Navbar.Brand href="/">
                             <img src={require("../../Media/Images/logo.png")} alt='NSBE Logo'/>
-                            <b>UNIVERSITY OF NOTRE DAME NSBE CHAPTER</b>
+                            <b id = "title">UNIVERSITY OF NOTRE DAME NSBE CHAPTER</b>
                         </Navbar.Brand>
                         <Navbar.Toggle aria-controls="basic-navbar-nav" />
                             <Navbar.Collapse id="basic-navbar-nav">

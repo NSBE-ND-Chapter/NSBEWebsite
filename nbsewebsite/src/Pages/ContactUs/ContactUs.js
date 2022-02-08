@@ -73,9 +73,9 @@ export default class ContactUs extends Component {
 
                                 <Form.Group as={Row} className="mb-2" controlId="exampleForm.ControlTextarea1">
 
-                                    <Form.Label column sm={2} >Please Explain Concern</Form.Label>
+                                    <Form.Label column sm={3} >Please Explain Concern</Form.Label>
 
-                                    <Col sm={8}>
+                                    <Col sm={9} lg={9}>
                                         <Form.Control as="textarea" rows={3} />
                                     </Col>
                                 </Form.Group>
