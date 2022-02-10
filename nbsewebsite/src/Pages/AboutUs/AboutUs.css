@@ -1,3 +1,21 @@
 .AboutUs{
     text-align: center;
+    background-color: black;
+    color: white;
+}
+
+#image{
+
+}
+
+#image img{
+    margin-top: 5%;
+    height: 90%;
+    width: auto;
+    border-radius: 25px;
+}
+
+#text{
+    margin-top: 15%;
+    margin-bottom: 10%;
 }
