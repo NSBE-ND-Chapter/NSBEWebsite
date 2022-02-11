@@ -6,7 +6,7 @@ export default class AboutUs extends Component {
     render() {
         return (
             <div className="AboutUs">
-                <Container>
+                <Container id="Container" fluid>
                     {/* For Vision */}
                     {/*  <Row id="vision" xs={1} sm={1} md={2} lg={2}> */}
                     <Row id="vision">

@@ -7,16 +7,21 @@
     color: white;
 }
 
+/* #Container{
+
+} */
+
 #image{
     text-align: center;
 }
 
 #image img{
-    margin-top: 10%;
+    margin-top: 5%;
     height: auto;
-    width: 300px;
-    border-radius: 25px;
+    width: 425px;
+    /* border-radius: 25px; */
 }
+
 
 #text{
     margin-top: 5%;
@@ -24,6 +29,7 @@
     margin-right: 5%;
     font-family: 'Montserrat', sans-serif;
     font-weight: 300;
+    margin-left: 15%;
 }
 
 #text h4{
@@ -39,6 +45,12 @@
 
     #text{
         margin-top: -15%;
+        margin-left: 0;
+    }
+
+    #image img{
+        height: auto;
+        width: 300px;
     }
     
 }
