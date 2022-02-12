@@ -32,12 +32,6 @@ export default class AboutUs extends Component {
 
                     {/* For Mission */}
                     <Row id="mission">
-                        <Col id="image">
-                            <img
-                                src={require('../../Media/Images/AboutUs/Sample.jpg')}
-                                alt="Mission"
-                            />
-                        </Col>
                         <Col id="text">
                             <h4> Our Mission: </h4>
 
@@ -48,6 +42,13 @@ export default class AboutUs extends Component {
                                 professionally and positively impact the community."
                             </p>
                         </Col>
+                        <Col id="image">
+                            <img
+                                src={require('../../Media/Images/AboutUs/Sample.jpg')}
+                                alt="Mission"
+                            />
+                        </Col>
+
                     </Row>
 
                     {/* For what NSBE Offers */}
